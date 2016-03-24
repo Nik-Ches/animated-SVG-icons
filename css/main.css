@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+}
+
+.siteLink {
+    color: rgba(138, 194, 73, 0.83);
+    transition: all 0.5s ease;
+}
+
+
+.topHeader {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+    color: rgba(138, 194, 73, 0.83);
+    padding: 10px;
+}
+
+.container-fluid {
+    max-width: 90%;
+    padding: 20px 0;
+}
+
+.svgIcon {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    border: 5px solid rgba(53, 159, 203, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+svg {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+span {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 60px;
+}
+
+a:hover {
+    color: #53841B !important;
+}
+
+
+
+.footerPara {
+    line-height: 150%;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    color: rgba(138, 194, 73, 0.83);
+    padding: 10px;
+    font-size: 30px;
+}
